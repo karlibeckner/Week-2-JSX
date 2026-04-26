@@ -163,7 +163,6 @@ body {
 .download-button.tertiary:active {
     background-color: #d8d6ce;
 }
-
 /* Floating helper label at top center */
 .page-label {
     position: fixed;
