@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title shown in browser tab -->
     <title>Pricing Plans — HTML version</title>
+    <!-- Font loading: faster Google Fonts connection -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Brand typeface: Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main pricing page styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Top helper label for this static HTML demo -->
     <p class="page-label"><strong>HTML version</strong> — static markup</p>
+
+    <!-- Pricing cards wrapper -->
     <div class="cards-container">
+        <!-- Plan Card: Hobby -->
         <div class="card">
+            <!-- Card header and feature list -->
             <div class="card-top">
                 <h3 class="card-title">Hobby</h3>
                 <p class="card-price">
@@ -20,6 +29,7 @@
                 </p>
                 <div class="card-content">
                     <p class="includes-text">Includes:</p>
+                    <!-- Feature bullets -->
                     <ul class="features-list">
                         <li>
                             <span class="checkmark">✓</span>
@@ -36,9 +46,13 @@
                     </ul>
                 </div>
             </div>
+            <!-- Primary action for Hobby plan -->
             <button class="download-button secondary">Download</button>
         </div>
+
+        <!-- Plan Card: Pro -->
         <div class="card">
+            <!-- Card header and feature list -->
             <div class="card-top">
                 <h3 class="card-title">Pro</h3>
                 <p class="card-price">
@@ -47,6 +61,7 @@
                 </p>
                 <div class="card-content">
                     <p class="includes-text">Everything in Hobby, plus:</p>
+                    <!-- Feature bullets -->
                     <ul class="features-list">
                         <li>
                             <span class="checkmark">✓</span>
@@ -67,7 +82,44 @@
                     </ul>
                 </div>
             </div>
+            <!-- Primary action for Pro plan -->
             <button class="download-button primary">Get Pro</button>
+        </div>
+
+        <!-- Plan Card: Enterprise -->
+        <div class="card">
+            <!-- Card header and feature list -->
+            <div class="card-top">
+                <h3 class="card-title">Enterprise</h3>
+                <p class="card-price">
+                    <span class="card-price-amount">$60</span>
+                    <span class="card-price-period">/mo.</span>
+                </p>
+                <div class="card-content">
+                    <p class="includes-text">Everything in Pro, plus:</p>
+                    <!-- Feature bullets -->
+                    <ul class="features-list">
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Dedicated success manager
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Advanced security controls
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Custom onboarding support
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Unlimited organization seats
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Primary action for Enterprise plan -->
+            <button class="download-button secondary">Contact Sales</button>
         </div>
     </div>
 </body>
